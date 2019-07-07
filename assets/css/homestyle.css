@@ -164,12 +164,9 @@ i:hover {
 	margin-top: 0px;
 	padding-left: 25px;
 	padding-right: 10px;
-	height: 100vh;
+	height: 110vh;
 }
-/*.carouselspace {
-	height: 30vh;
-	z-index: -1;*/
-}
+
 .carouselspace2 {
 	height: 10vh;
 }
