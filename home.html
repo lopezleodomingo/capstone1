@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Musick | Home</title>
+
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+
+<!-- fontawesome icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<!-- bootstrap css -->
+
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+<!-- animate css -->
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+<!-- external css -->
+<link rel="stylesheet" type="text/css" href="assets/css/homestyle.css">
+
+<!-- script for music -->
+<script>
+	var aero = new Audio ();
+	aero.src = "assets/audio/aero.mp3";
+</script>
+
+<script>
+	var acdc = new Audio ();
+	acdc.src = "assets/audio/acdc.mp3";
+</script>
+
+<script>
+	var beatles = new Audio ();
+	beatles.src = "assets/audio/beatles.mp3";
+</script>
+
+<script>
+	var bnb = new Audio ();
+	bnb.src = "assets/audio/bnb.mp3";
+</script>
+
+<script>
+	var carp = new Audio ();
+	carp.src = "assets/audio/carp.mp3";
+</script>
+
+<script>
+	var creed = new Audio ();
+	creed.src = "assets/audio/creed.mp3";
+</script>
+
+<script>
+	var daft = new Audio ();
+	daft.src = "assets/audio/daft.mp3";
+</script>
+
+<script>
+	var dan = new Audio ();
+	dan.src = "assets/audio/dan.mp3";
+</script>
+
+
+
+<!-- favcon -->
+<link rel="icon" href="assets/images/favcon.png" type="image/gif" sizes="16x16">
+
+
+</head>
+<body>
+<div class="loader">
+	<img src="assets/images/loader.gif" alt="loading...">
+</div>
+
+<script type="text/javascript">
+	window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+</script>
+
+<div id="bodytop">
+	<navbar id="navbar" class="navbar navbar-expand-lg navbar-light">
+			<a href="" class="navbar-brand">
+				<h1 class="mainlogo">Musick</h1>
+			</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+		<div id="navbar-nav" class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto text-center">
+				<li class="nav-item active">
+					<a href="home.html" class="nav-link">
+							<h3 class="navbutton"><span>|Home|</span></h3>
+					</a>
+				</li>
+				<li class="nav-item active">
+					<a href="About.html" class="nav-link">
+							<h3 class="navbutton"><span>About</span></h3>
+					</a>
+				</li>
+				<li class="nav-item active">
+					<a href="enroll.html" class="nav-link">
+							<h3 class="navbutton"><span>Enroll</span></h3>
+					</a>
+				</li>
+								<li class="nav-item active">
+					<a href="contact.html" class="nav-link">
+							<h3 class="navbutton"><span>Contact Us</span></h3>
+					</a>
+				</li>
+
+			</ul>
+		</div>
+	</navbar>
+
+<!-- CAROUSEL -->
+
+	<div class="carousel-container">
+		<div class="row">
+			<div class="col-12 col-lg-6 kolumn p-0"> 
+				<div class="carousel slide">
+					<div id="carousel-home" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner mb">
+
+							<div class="carousel-item active">
+								<img src="assets/images/guitar1.jpg" class="d-block w-100" id="pic1">
+									<div class="carousel-caption">
+										<h1 class="blackbg">Enroll now and get a 10% discount!</h1>
+										<a href="enroll.html"><button type="button" class="btn btn-primary">Enroll</button> </a>
+										
+									</div>
+								</div>	
+
+							<div class="carousel-item">
+
+								<div class="carousel-caption">
+									<h1 class="blackbg2">With over 30 studios <p>nationwide!</p></h1>
+								
+							</div>
+
+								<img src="assets/images/guitar2.jpg" class="d-block w-100" id="pic1">
+
+
+							</div>
+
+							<div class="carousel-item">
+								<div class="carousel-caption">
+									<h1 class="blackbg3">Get lessons from professional guitarists!</h1>
+									
+							</div>
+								<img src="assets/images/guitar3.jpg" class="d-block w-100" id="pic1">
+
+
+
+							</div>
+
+								<a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+								<span class="
+								carousel-control-prev-icon"></span>
+								</a>
+								<a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+								<span class="
+									carousel-control-next-icon"></span>
+								</a>
+						</div><!-- end carousel -->
+					</div><!-- end 8 cols -->
+				</div> <!-- end carousel slide -->
+			</div> 
+					<div class="carouselright col-lg-5 p-0">
+						<h1 class="riffs text-center mb-0">Guitar tutorials for both Pros and beginners.</h1>
+						<a href="#btn"><button type="button" class="btn btn-success"><h5>Listen to Samples</h5></button></a>
+					</div><!-- end kolumn -->
+		 </div><!-- end row -->
+			 <div class="carouselspace col 12"></div>
+	<!-- end kolumn -->
+	</div>
+	</div> <!-- end carousel container -->
+</div> <!-- end body top -->
+
+<div id="body1">
+	<div class="carouselspace2 col 12 " id="btn"></div>
+	<div class="alphachoose col 12 text-center p-1 sticky-top">
+
+		<a href="#btn"><button class="btn">A</button>  </a>
+		<a href="#B"><button class="btn">B</button>  </a>
+		<a href="#C"><button class="btn">C</button>  </a>
+		<a href="#D"><button class="btn">D</button>  </a>
+		<a href="#navbar"><button class="btn">Home</button>  </a>
+	</div>
+ <!-- end carousel container  --> 
+
+	
+	<div class="alphapanel col-12 col-md-3 text-center">
+		<p class="alpha mb-0" id="alphaA">A</p>
+	</div>
+	<!-- end of container -->
+
+
+			<div class="row text-center">
+				<div class="col-12 col-md-6 col-lg-6 p-0 mb-5">
+						<div class="card">
+							<img src="assets/images/aero.jpg" class="card-img-top img-fluid">
+								<div class="card-body">
+									<h3 class="card-title">Aerosmith</h3>
+									<p class="card-text">Combination</p>
+
+					<img src="assets/images/eguitar.png" id="audio-player" onmouseover="aero.play()" onmouseout="aero.pause()" preload> 
+	
+								</div>  <!-- end card body -->
+						</div> <!-- end car -->
+				</div> <!-- end 4 cols -->
+
+
+				<div class="col-12 col-md-6 col-lg-6 p-0 mb-5">
+
+					<div class="card">
+							<img src="assets/images/acdc.jpg" class="card-img-top img-fluid">
+								<div class="card-body">
+									<h3 class="card-title">AC/DC</h3>
+									<p class="card-text">Back In Black</p>
+					<img src="assets/images/eguitar.png" id="audio-player" onmouseover="acdc.play()" onmouseout="acdc.pause()">
+
+								</div>  <!-- end card body -->
+						</div> <!-- end car -->
+				</div>
+			</div>
+
+			<div class="carouselspace col 12" id="B"></div> <!-- SPACE -->
+
+	<div class="alphapanel col-12 col-md-3 text-center">
+		<p class="alpha mb-0" id="alphaB">B</p>
+	</div>
+
+		<div class="row text-center">
+				<div class="col-12 col-md-6 col-lg-6 p-0 mb-5">
+						<div class="card">
+							<img src="assets/images/beatles.jpg" class="card-img-top img-fluid">
+
+								<div class="card-body">
+									<h3 class="card-title">Beatles</h3>
+										<p class="card-text">Here Come the Sun</p>
+					<img src="assets/images/acoustic.png" id="audio-player" onmouseover="beatles.play()" onmouseout="beatles.pause()">
+								</div>  <!-- end card body -->
+						</div> <!-- end car -->
+				</div> <!-- end 4 cols -->
+
+
+				<div class="col-12 col-md-6 col-lg-6 p-0 mb-5">
+
+					<div class="card">
+							<img src="assets/images/bnb.jpg" class="card-img-top img-fluid">
+
+								<div class="card-body">
+									<h3 class="card-title">Ben & Ben</h3>
+									<p class="card-text">Kathang Isip</p>
+							<img src="assets/images/acoustic.png" id="audio-player" onmouseover="bnb.play()" onmouseout="bnb.pause()">
+								</div>  <!-- end card body -->
+						</div> <!-- end card -->
+				</div>
+			</div>
+
+<!-- put next column here -->
+		<div class="carouselspace col 12" id="C"></div> <!-- SPACE -->
+
+	<div class="alphapanel col-12 col-md-3 text-center">
+		<p class="alpha mb-0" id="alphaC">C</p>
+	</div>
+
+		<div class="row text-center">
+				<div class="col-12 col-md-6 col-lg-6 p-0 mb-5">
+						<div class="card">
+							<img src="assets/images/carp.jpg" class="card-img-top img-fluid">
+
+								<div class="card-body">
+									<h3 class="card-title">Carpenters</h3>
+									<p class="card-text">Yesterday Once More</p>
+								<img src="assets/images/acoustic.png" id="audio-player" onmouseover="carp.play()" onmouseout="carp.pause()">
+								</div>  <!-- end card body -->
+						</div> <!-- end car -->
+				</div> <!-- end 4 cols -->
+
+
+				<div class="col-12 col-md-6 col-lg-6 p-0 mb-5">
+
+					<div class="card">
+							<img src="assets/images/creed.jpg" class="card-img-top img-fluid">
+
+								<div class="card-body">
+									<h3 class="card-title">Creed</h3>
+									<p class="card-text">What If</p>
+								<img src="assets/images/eguitar.png" id="audio-player" onmouseover="creed.play()" onmouseout="creed.pause()">
+								</div>  <!-- end card body -->
+						</div> <!-- end card -->
+				</div>
+			</div>
+
+			<!-- put next column here -->
+		<div class="carouselspace col 12" id="D"></div> <!-- SPACE -->
+
+	<div class="alphapanel col-12 col-md-3 text-center">
+		<p class="alpha mb-0" id="alphaD">D</p>
+	</div>
+
+		<div class="row text-center">
+				<div class="col-12 col-md-6 col-lg-6 p-0 mb-5">
+						<div class="card">
+							<img src="assets/images/daft.jpg" class="card-img-top img-fluid">
+
+								<div class="card-body">
+									<h3 class="card-title">Daft Punk</h3>
+									<p class="card-text">Get Lucky</p>
+							<img src="assets/images/eguitar.png" id="audio-player" onmouseover="daft.play()" onmouseout="daft.pause()">
+								</div>  <!-- end card body -->
+						</div> <!-- end car -->
+				</div> <!-- end 4 cols -->
+
+
+				<div class="col-12 col-md-6 col-lg-6 p-0 mb-5">
+
+					<div class="card">
+							<img src="assets/images/dan.jpg" class="card-img-top img-fluid">
+
+								<div class="card-body">
+									<h3 class="card-title">Dan Fogelberg</h3>
+									<p class="card-text">The Leader Of the Band</p>
+									<img src="assets/images/acoustic.png" id="audio-player" onmouseover="dan.play()" onmouseout="dan.pause()">
+								</div>  <!-- end card body -->
+						</div> <!-- end card -->
+				</div>
+			</div>
+
+
+
+
+	</div>
+
+	<footer class="footer">
+			<p class="text-center p-3 mb-0"> Musick | Guitar Tutorials</p>
+			<a href="#"><i class="fab fa-facebook-f"></i> </a>
+			<a href="#"><i class="fab fa-twitter"></i> </a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+	</footer>
+
+	</div> <!-- end container -->
+</div>
+</div>
+</div>
+
+
+
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+
+<script src="assets/js/popper.min.js"></script>
+
+<script src="assets/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

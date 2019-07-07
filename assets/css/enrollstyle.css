@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}
+
+#bodytop {
+	background-image: url(../images/enrollbg.jpeg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#body1 {
+	background-color: #333;
+	font-family: 'Teko', sans-serif 
+
+}
+h3 {
+	font-family: 'Teko', sans-serif;
+}
+.mainlogo {
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	padding-left: 10px;
+	padding-bottom: 0;
+}
+
+
+.navbar {
+	background-color: rgba(0,0,0,0.7);
+	padding-top: 15px;
+}
+
+
+.navbutton:hover{
+	background-color: grey;
+	border-radius: 15px;
+	color: rgb(127,255,0,0.7);
+}
+
+
+.navbutton {
+	color: white;
+	padding: 7px;
+}
+
+.navbar-toggler {
+	color: white;
+}
+.row {
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+/*ABOUT*/
+
+
+
+
+
+
+
+.container {
+	height: 100vh;
+}
+
+.aboutpar {
+	background-color: rgba(255,255,255,0.7);
+	margin:10px;
+	color: black;
+	padding: 10px;
+	border-radius: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+} 
+
+
+
+.heading {
+	margin-top: 10px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	
+	width: 200px;
+	text-align: center;
+	border-radius: 5px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*enroll*/
+.column {
+	margin-top: 20px;
+	background-color: rgba(0,0,0,0.7);
+	font-family: 'Literata', serif;
+}
+
+.input {
+	color: black;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.7);
+	font-family: 'Literata', serif;
+
+}
+
+label {
+	color: white;
+}
+
+form {
+	padding: 20px;
+}
+
+.header {
+	color: white;
+	font-size: 35px;
+
+}
+
+legend {
+	color: white;
+}
+
+.radiobtn {
+	color: white;
+	margin: 20px
+	font-family: 'Literata', serif;
+	padding-left: 20px;
+}
+
+.bday {
+	padding-top: 20px;
+	color: white;
+	font-family: 'Literata', serif;
+
+}
+
+
+.submit {
+	margin: 20px;
+	font-family: 'Literata', serif;
+}
+
+i {
+	font-size: 2rem;
+	padding-left: 1rem;
+	color: lightgrey;
+}
+
+i:hover {
+	color:white;
+}
+
+.footer {
+	height: 120px;
+	background-color: rgba(0,0,0,0.7);
+	padding: 8px;
+	text-align: center;
+	color: lightgrey;
+
+}

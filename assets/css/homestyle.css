@@ -1,0 +1,330 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}
+
+#bodytop {
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#body1 {
+	background-image: url(../images/bg2.jpeg);
+	font-family: 'Teko', sans-serif;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+#home-landing {
+	background-color: #333;
+	color: #fff;
+	padding: 20%;
+}
+
+.loader {
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loader > img {
+	width: 100px;
+
+}
+
+.loader.hidden {
+	animation: fadeOut 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+	100% {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+}
+
+h3 {
+	font-family: 'Teko', sans-serif;
+}
+
+span:hover {
+	color: rgb(127,255,0,0.7);
+
+}
+
+.riffs {
+	padding: 20px;
+	margin-bottom: 20px;
+	font-family: 'Abel', sans-serif;
+	font-weight: bold;
+}
+
+.navbar {
+	background-color: rgba(0,0,0,0.7);
+	padding-top: 15px;
+
+}
+
+.mainlogo {
+	color: white;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	padding-left: 10px;
+	padding-bottom: 0;
+}
+
+
+.kolumn {
+	background-color: black;
+	margin-bottom: 0;
+	opacity: 0.9;
+	border-radius: 30px;
+}
+
+#pic1 {
+	border-radius: 30px;
+}
+#pic2 {
+	border-radius: 30px;
+}
+
+#pic3 {
+	border-radius: 30px;
+}
+
+
+.alphapanel{
+	padding-top: 10px;
+}
+
+.alpha{
+	background-color: rgba(0,0,0,0.7);
+	height: 56px;
+	font-size: 30px;
+	color: #fff;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	padding-top: 10px;
+}
+
+i {
+	font-size: 2rem;
+	padding-left: 1rem;
+	color: lightgrey;
+}
+
+.footer {
+	height: 120px;
+	background-color: rgba(0,0,0,0.7);
+	padding: 8px;
+	text-align: center;
+	color: lightgrey;
+
+}
+i:hover {
+	color:white;
+}
+
+
+.alist {
+	background-color: green;
+}
+
+.carouselright {
+	height: 20vh; 
+	color: white;
+	text-align: center;
+	margin: 40px;
+	margin-top: 110px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.carousel-container {
+	padding-top:65px;
+	margin-top: 0px;
+	padding-left: 25px;
+	padding-right: 10px;
+	height: 100vh;
+}
+/*.carouselspace {
+	height: 30vh;
+	z-index: -1;*/
+}
+.carouselspace2 {
+	height: 10vh;
+}
+
+.alphachoose {
+	padding: 50px;
+}
+
+.alphachoose button {
+	background-color: rgba(999,999,999,0.5);
+	color: #333;
+	z-index: 2; 
+}
+
+.blackbg{
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 40px;
+	font-family: 'Teko', sans-serif;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 25px;
+
+}
+
+
+.blackbg2{
+	background-color:rgba(255,255,0,0.7);
+	border-radius: 40px;
+	color: black;
+	font-family: 'Teko', sans-serif;
+	font-size: 25px;
+	margin: 0 auto;
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+
+
+
+.blackbg3{
+	background-color:rgba(255,255,0,0.7);
+	border-radius: 40px;
+	color: black;
+	font-family: 'Teko', sans-serif;
+	font-size: 25px;
+	margin: 0 auto;
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+#btn{
+	height: 8px;
+}
+
+.btn:hover {
+	background-color: rgba(127,255,0,0.7);
+}
+#bodytop .btn{ 
+z-index: 5;
+font-family: 'Lobster', cursive;
+ }
+
+ #btn {
+ 	padding:0;
+
+ }
+
+.navbutton {
+	padding: 7px;
+	font-family: 'Teko', sans-serif;
+}
+
+
+.navbutton:hover{
+	background-color: grey;
+	border-radius: 15px;
+	color: rgb(127,255,0,0.7);
+}
+
+
+.row {
+	margin-right: 0;
+}
+
+
+
+.music {
+	background-color: black;
+	margin:10px;
+}
+
+
+.card-body{
+	background-color: red;
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+.card {
+	background-color: rgba(0,0,0,0.0);
+
+}
+
+.card-img-top {
+	
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 50px;
+	padding-left:50px;
+	padding-right:50px;
+}
+.card-title, .card-text {
+	color:white;
+
+}
+
+.card-text {
+	font-size: 25px;
+}
+
+.navbutton {
+	color: white;
+}
+
+.navbar-toggler {
+	color: white;
+}
+
+
+#B{
+	height: 5vh;
+}
+
+#C{
+	height: 5vh;
+}
+
+#D{
+	height: 5vh;
+}
+
+
+#audio-player {
+	height: 80px;
+	width: 90px;
+	padding: 4px;
+	
+}
+
+#audio-player:hover {
+	background-color: green;
+	border-radius: 20px;
+}
+
+
+
+

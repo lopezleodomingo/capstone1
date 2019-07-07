@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+#home-landing {
+	background-color: #333;
+	color: #fff;
+	padding: 20%;
+}
+
+#navbar {
+	background-color: indianred;
+}
+
+.kolumn {
+	background-color: black;
+}
+
+.stuff{
+	background-color: black;
+	width: 500px;
+}
+
+
