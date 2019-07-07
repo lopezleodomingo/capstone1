@@ -241,6 +241,10 @@ font-family: 'Lobster', cursive;
 	font-family: 'Teko', sans-serif;
 }
 
+.navbar-custom {
+	color: white;
+}
+
 
 .navbutton:hover{
 	background-color: grey;
