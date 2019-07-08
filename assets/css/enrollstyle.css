@@ -12,8 +12,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 270vh;
+	height: 280vh;
 	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
 }
 
 h3 {
@@ -53,6 +54,11 @@ h3 {
 	margin-right: 0;
 }
 
+.classes {
+	font-family: 'Roboto', sans-serif;
+}
+
+
 
 
 
@@ -64,13 +70,19 @@ h3 {
 
 
 
-
+.container1 {
+	height: 50vh;
+	padding: 10px;
+	
+}
 
 
 .container {
 	height: 100vh;
 	padding: 0px;
 }
+
+
 
 .aboutpar {
 	background-color: rgba(255,255,255,0.7);
@@ -96,11 +108,15 @@ h3 {
 }
 
 /*enroll*/
+
+
 .column {
 	margin-top: 20px;
 	background-color: rgba(0,0,0,0.7);
 	font-family: 'Literata', serif;
+
 }
+
 
 .input {
 	color: black;
@@ -118,9 +134,14 @@ form {
 	padding: 20px;
 }
 
+.form-text {
+	font-family: 'Roboto', sans-serif;
+}
+
 .header {
 	color: white;
 	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
 
 }
 
@@ -128,24 +149,33 @@ legend {
 	color: white;
 }
 
+label {
+	font-family: 'Roboto', sans-serif;
+}
+
 .radiobtn {
 	color: white;
 	margin: 20px
-	font-family: 'Literata', serif;
+	font-family: 'Roboto', sans-serif;
 	padding-left: 20px;
 }
 
 .bday {
 	padding-top: 20px;
 	color: white;
-	font-family: 'Literata', serif;
+	font-family: 'Roboto', sans-serif;
 
 }
 
 
 .submit {
 	margin: 20px;
-	font-family: 'Literata', serif;
+	font-family: 'Roboto', sans-serif;
+}
+#submit {
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(50,205,50,0.7);
+	color: white;
 }
 
 i {
@@ -164,6 +194,7 @@ i:hover {
 	padding: 8px;
 	text-align: center;
 	color: lightgrey;
+	font-family: 'Roboto', sans-serif;
 
 }
 
@@ -172,6 +203,7 @@ i:hover {
 	padding-left: 40px;
 	padding-top: 10px;
 	padding-right: 40px;
+	font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -187,4 +219,57 @@ a:hover {
 	width:400px;
 	height: 400px;
 	display: block;
+}
+
+
+
+.classes {
+	color: white;
+	padding-left: 40px;
+}
+
+.sched {
+	font-family: 'Roboto', sans-serif;
+	padding-left: 40px;
+	color: white;
+}
+
+.slots {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: yellow;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 10px;
+	/*margin-left: 10px;*/
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+
+}
+
+.fullslots {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: darkred;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 10px;
+	/*margin-left: 43px;*/
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+}
+
+.slots1 {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: lime;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 10px;
+	/*margin-left: 25px;*/
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
 }

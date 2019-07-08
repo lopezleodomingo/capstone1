@@ -71,6 +71,7 @@ i {
 	padding: 8px;
 	text-align: center;
 	color: lightgrey;
+	font-family: 'Roboto', sans-serif;
 
 }
 i:hover {
@@ -120,6 +121,7 @@ i:hover {
 .column {
 	margin-top: 30px;
 	background-color: rgba(0,0,0,0.7);
+	font-family: 'Roboto', sans-serif;
 
 }
 
@@ -133,26 +135,31 @@ i:hover {
 
 label {
 	color: white;
-	font-family: 'Literata', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 form {
 	padding: 20px;
-	font-family: 'Literata', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .header {
 	color: white;
 	font-size: 35px;
-	font-family: 'Literata', serif;
+	font-family: 'Roboto', sans-serif;
 
 }
 
 legend {
 	color: white;
-	font-family: 'Literata', serif;
+	font-family: 'Roboto', sans-serif;
 }
 .submit {
 	padding: 20px;
+}
+
+#submit {
+	background-color:rgba(50,205,50,0.7);
+	color: white;
 }
 
