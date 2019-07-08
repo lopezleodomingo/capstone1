@@ -105,7 +105,8 @@ i:hover {
 	padding: 10px;
 	border-radius: 25px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 18px; 
+	text-align: justify;
 } 
 
 
@@ -135,6 +136,8 @@ h1 {
 	border-radius: 100%;
 	margin-top: 10px;
 	margin-left: 45%;
+	text-align: justify;
+
 
 }
 
