@@ -12,10 +12,13 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	height: 200vh;
+
 }
 #body1 {
 	background-color: #333;
 	font-family: 'Teko', sans-serif 
+
 
 }
 h3 {
