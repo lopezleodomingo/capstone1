@@ -86,7 +86,8 @@ i:hover {
 
 
 .container {
-	height: 100vh;
+	height: 130vh;
+	padding: 0px;
 }
 
 .aboutpar {
@@ -113,8 +114,9 @@ i:hover {
 }
 
 .column {
-	margin-top: 20px;
+	margin-top: 30px;
 	background-color: rgba(0,0,0,0.7);
+
 }
 
 .input {

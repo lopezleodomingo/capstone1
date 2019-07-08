@@ -68,6 +68,7 @@ h3 {
 
 .container {
 	height: 100vh;
+	padding: 0px;
 }
 
 .aboutpar {
@@ -163,4 +164,15 @@ i:hover {
 	text-align: center;
 	color: lightgrey;
 
+}
+
+.packages {
+	color: white;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-right: 40px;
+}
+
+a {
+	text-decoration: none;
 }
