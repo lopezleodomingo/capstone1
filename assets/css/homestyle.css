@@ -66,15 +66,13 @@ h3 {
 	font-family: 'Teko', sans-serif;
 }
 
-span:hover {
-	color: rgb(127,255,0,0.7);
+
 
 }
 
 .riffs {
 	padding: 20px;
 	margin-bottom: 20px;
-	font-family: 'Abel', sans-serif;
 	font-weight: bold;
 }
 
@@ -88,7 +86,7 @@ span:hover {
 	color: white;
 	font-family: 'Lobster', cursive;
 	font-size: 40px;
-	padding-left: 10px;
+	padding-left: 40px;
 	padding-bottom: 0;
 }
 
@@ -156,8 +154,12 @@ i:hover {
 	margin: 40px;
 	margin-top: 110px;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: 'Abel', sans-serif;
+	font-weight: bold;
 
 }
+
+
 
 .carousel-container {
 	padding-top:65px;
@@ -189,7 +191,7 @@ i:hover {
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 10px;
-	font-size: 25px;
+	font-size: 30px;
 
 }
 
@@ -199,7 +201,7 @@ i:hover {
 	border-radius: 40px;
 	color: black;
 	font-family: 'Teko', sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 	margin: 0 auto;
 	width: 250px;
 	margin-bottom: 10px;
@@ -213,14 +215,24 @@ i:hover {
 	border-radius: 40px;
 	color: black;
 	font-family: 'Teko', sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 	margin: 0 auto;
 	width: 250px;
 	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+
 }
 
 #btn{
 	height: 8px;
+
+}
+
+#learnrock {
+	padding-top: 5px;
+	padding-bottom: 3px;
+	margin-top: 10px;
 }
 
 .btn:hover {
@@ -326,6 +338,26 @@ font-family: 'Lobster', cursive;
 	border-radius: 20px;
 }
 
+.teach {
+	padding-top: 20px;
+	color: white;
+	text-align: center;
+}
 
+.mos {
+	color: gold;
+}
 
+.enroll-link {
+	color: green;
 
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}

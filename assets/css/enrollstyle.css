@@ -12,7 +12,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 140vh;
+	height: 270vh;
+	overflow: hidden;
 }
 
 h3 {
@@ -22,7 +23,7 @@ h3 {
 	color: white;
 	font-family: 'Lobster', cursive;
 	font-size: 40px;
-	padding-left: 10px;
+	padding-left: 40px;
 	padding-bottom: 0;
 }
 
@@ -175,4 +176,15 @@ i:hover {
 
 a {
 	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.map {
+	
+	width:400px;
+	height: 400px;
+	display: block;
 }
